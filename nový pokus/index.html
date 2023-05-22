@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="obrazky/shortcut icon.png">
+    
+    <title>Pojištěnci</title>
+</head>
+<body>
+    <header>
+    <h1>Pojištění</h1>
+    <ul>
+        <li class="aktivni">Pojištěnci</li>
+        <a href="OAplikaci.html"><li>O aplikaci...</li></a>
+    </ul>
+    </header>
+
+    <table>
+        
+        <thead>
+            <tr>
+                <th>Jméno</th>
+                <th>Příjmení</th>
+                <th>Věk</th>
+                <th>Telefonní čílso</th>
+            </tr>
+        </thead>    
+        <tbody id="seznam-pojistencu"></tbody>
+       
+    </table>
+    
+    <h2>Nový pojištěnec</h2>
+   
+    <form>  
+        <img src="obrazky/1.png" alt="avatar">
+        <label>Jméno:</label>
+        <input type="text" id="jmeno" placeholder="Jméno">
+        <label>Příjmení:</label>
+        <input type="text" id="prijmeni" placeholder="Přijmení">
+        <label>Věk:</label>
+        <input type="text" id="vek" placeholder="Věk">
+        <label>Telefonní číslo:</label>
+        <input type="text" id="telefon" placeholder="Telefonní číslo">
+        <input type="submit" id="uloz" value="Ulož">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
